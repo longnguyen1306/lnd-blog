@@ -18,8 +18,13 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => 'admincheck'], function () {
-    Route::get('/admin', 'AdminController@index');
-    Route::get('/admin/danh-muc-bai-viet', 'AdminController@demo');
+    Route::group(['prefix'=>'/admin'],function(){
+//        Route::get('/comments','CommentController@showComment');
+        Route::resource('/', 'AdminController', ['names' => 'adminRoute']);
+        Route::resource('/danh-muc', 'DanhMucController', ['names' => 'danmucRoute']);
+        //các route khác
+    });
+
 
 });
 

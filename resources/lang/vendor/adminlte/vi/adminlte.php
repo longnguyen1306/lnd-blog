@@ -16,7 +16,7 @@ return [
     'sign_in'                     => 'Đăng nhập',
     'log_out'                     => 'Đăng xuất',
     'toggle_navigation'           => 'Chuyển đổi điều hướng',
-    'login_message'               => 'Đăng nhập để bắt đầu phiên của bạn',
+    'login_message'               => 'Đăng nhập vào hệ thống',
     'register_message'            => 'Đăng ký thành viên mới',
     'password_reset_message'      => 'Đặt lại mật khẩu',
     'reset_password'              => 'Đặt lại mật khẩu',

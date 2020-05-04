@@ -57,6 +57,9 @@
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<script src="{{ asset('vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<script src="{{ asset('vendor/jquery-validation/jquery.validate.js') }}"></script>
+<script src="{{ asset('vendor/jquery-validation/additional-methods.js') }}"></script>
 
 @include('adminlte::plugins', ['type' => 'js'])
 

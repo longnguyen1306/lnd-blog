@@ -167,7 +167,7 @@ return [
 
     'use_route_url' => false,
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => '/admin',
 
     'logout_url' => 'logout',
 
@@ -208,13 +208,14 @@ return [
     */
 
     'menu' => [
+        ['header' => 'dashboard_menu'],
         [
             'text'    => 'cat_manager',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
                     'text' => 'post_cat',
-                    'url'  => 'admin/danh-muc-bai-viet',
+                    'url'  => 'admin/danh-muc',
                 ],
                 [
                     'text' => 'post_cat',

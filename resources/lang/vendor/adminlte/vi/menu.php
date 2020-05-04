@@ -6,6 +6,7 @@ return [
     'banner'                   => 'Banner',
     'cat_manager'          => 'Quản lý danh mục',
     'post_cat'               => 'Danh mục bài viết',
+    'dashboard_menu'               => 'Dashboard',
     'main_navigation'               => 'ĐIỀU HƯỚNG CHÍNH',
     'blog'                          => 'Blog',
     'pages'                         => 'Trang',
